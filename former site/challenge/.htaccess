@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^challenge\.ftok\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.challenge\.ftok\.org$
+RewriteRule ^challenge$ "http\:\/\/challenge\.ftok\.org\/" [R=302,L]
+
